@@ -1,13 +1,13 @@
-package com.dvsuperior.dvmovie;
+package com.dvsuperior.dsmovie;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DvmovieApplication {
+public class DsmovieApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DvmovieApplication.class, args);
+		SpringApplication.run(DsmovieApplication.class, args);
 	}
 
 }
