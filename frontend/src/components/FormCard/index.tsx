@@ -1,12 +1,12 @@
-import { Link } from 'react-router-dom';
 import './styles.css';
 import { Movie } from 'types/movie';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { BASE_URL } from 'utils/requests';
 
+
 type Props = {
-  movieId : string ;
+  movieId : String ;
 }
 
 function FormCard({ movieId } : Props) {
